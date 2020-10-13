@@ -1,0 +1,33 @@
+.content {
+    color: white;
+}
+
+.about_text {
+    /* max-width: 500px; */
+}
+
+.about_image {
+    width: 100%;
+    text-align: center;
+}
+
+.about_image img {
+    width: 800px;
+}
+
+#about_title {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.about_description_row_align {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#about_description {
+    max-width: 600px;
+    font-size: 18px;
+}

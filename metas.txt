@@ -1,0 +1,64 @@
+Media Breakpoints:
+
+    <    800px    =>
+ Phone             Monitor
+
+Drop-down Nav Menu:
+- Home
+- Category (Men / Women)
+- About us
+- Register
+
+Home
+---------
+- Image Slider (JQuery) showing the latest promotions
+
+
+Category
+---------
+- Gallery Style showing information, price, name, etc
+
+
+Register
+---------
+- Form :
+    - Email          must have '@'
+                     only 1 '@'
+		     '@' cannot be at beginning & end
+                     must have at least 1 '.'
+                     '.' cannot be at beginning & end
+                     '.'s cannot be beside '@'
+                     at least 1 '.' must be after '@'
+                     cannot have ' '
+                     
+    - Password       6 Characters length
+    - Address
+    - Date of Birth  
+    - Gender         Male | Female
+    - Agree to T&C   Checkbox
+
+
+About Us
+----------
+This page gives a brief introduction to our company and a statement that Bulan is a part of the Antromeda Fashion Group. You can also add other components such as banner image, address location, etc.
+
+dark theme palette
+
+base : #121212
+5%   : #1e1e1e
+7%   : #232323
+8%   : #252525
+9%   : #272727
+11%  : #2c2c2c
+12%  : #2f2f2f
+14%  : #333333
+15%  : #353535
+16%  : #383838
+
+
+References:
+hamburger.svg -> https://freeicons.io/avatar/hamburger-menu-icon-11554
+about us images:
+- https://www.scmp.com/magazines/style/luxury/article/3033832/style-edit-giorgio-armani-stays-out-after-dark-nocturnally
+- https://www.aliexpress.com/item/32808857498.html
+- https://www.pinterest.com/pin/10836855326755198/
