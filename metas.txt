@@ -22,7 +22,8 @@ Category
 Register
 ---------
 - Form :
-    - Email          must have '@'
+    - Email          must be filled
+                     must have '@'
                      only 1 '@'
 		     '@' cannot be at beginning & end
                      must have at least 1 '.'
@@ -31,9 +32,16 @@ Register
                      at least 1 '.' must be after '@'
                      cannot have ' '
                      
-    - Password       6 Characters length
-    - Address
-    - Date of Birth  
+    - Password       must be filled
+                     6 Characters length
+
+    - Address        must be filled
+
+    - Date of Birth  must be filled
+                     Must be correct format
+                     Must be valid date (accounting to monthly days & leap years)
+		     Must not be today or more
+
     - Gender         Male | Female
     - Agree to T&C   Checkbox
 
