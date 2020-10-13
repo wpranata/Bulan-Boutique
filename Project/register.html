@@ -34,6 +34,39 @@
 
     <!-- content -->
     <div class="content">
+        <div class="register_container">
+            <div class="register_form">
+                <p id="register_title">Registration</p>
+                <p class="form_label">Email</p>
+                <input class="form_input_text" type="text" name="email" id="email" placeholder="Email">
+                <p class="form_label">Password</p>
+                <input class="form_input_text" type="password" name="password" id="password" placeholder="Password">
+                <p class="form_label">Address</p>
+                <textarea class="form_input_text" name="address" id="address" cols="30" rows="10" placeholder="Address"></textarea>
+                <div class="double_column">
+                    <div class="dob_container">
+                        <p class="form_label">Date of Birth</p>
+                        <input class="form_input_text" type="text" name="dob" id="dob" placeholder="dd/mm/yyyy">
+                    </div>
+                    <div class="gender_container">
+                        <p class="form_label">Gender</p>
+                        <div class="input_radio_container">
+                            <input type="radio" name="gender" id="male" value="male">
+                            <p class="form_label">Male</p>
+                        </div>
+                        <div class="input_radio_container">
+                            <input type="radio" name="gender" id="female" value="female">
+                            <p class="form_label">Female</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="checkbox_container">
+                    <input type="checkbox" name="tac" id="tac">
+                    <p class="form_label">I agree to the Terms and Conditions.</p>
+                </div>
+                <button class="form_input_text" id="button_register">Register</button>
+            </div>
+        </div>
     </div>
 
     <!-- footer -->
@@ -41,6 +74,8 @@
         <img src="Assets/Logo/business_logo.png" alt="business_logo.png">
         <p>Copyright 2020 &copy; Antromeda Fashion Group</p>
     </div>
+
+    <script src="JS/register.js"></script>
 </body>
 
 </html>
