@@ -1,5 +1,8 @@
+/* about.css contains css for about contents */
+
 .content {
     color: white;
+    margin-bottom: 100px;
 }
 
 .about_text {
