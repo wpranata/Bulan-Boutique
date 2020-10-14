@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="CSS/global.css">
-    <link rel="stylesheet" href="CSS/women.css">
+    <link rel="stylesheet" href="CSS/category.css">
     <link rel="shortcut icon" href="Assets/Logo/business_logo.png">
     <title>Women | Bulan Boutique</title>
 </head>
@@ -25,7 +25,13 @@
         <div class="header_navbar">
             <div class="navbar_row_align">
                 <a class="navbar_option" href="home.html">Home</a>
-                <a class="navbar_option" href="">Categories</a>
+                <div class="categories_container">
+                    <p class="navbar_option" href="">Categories</p>
+                    <div class="categories_extend">
+                        <a class="navbar_option" href="men.html">Men</a>
+                        <a class="navbar_option" href="women.html">Women</a>
+                    </div>
+                </div>
                 <a class="navbar_option" href="about.html">About Us</a>
                 <a class="navbar_option" href="register.html">Register</a>
             </div>
@@ -34,6 +40,59 @@
 
     <!-- content -->
     <div class="content">
+        <p id="content_title">Women Products</p>
+        <div class="gallery_row_align">
+            <div class="gallery_container">
+                <div class="item_container">
+                    <img class="item_image" src="Assets/Image/women/outfit_1.jpg" alt="outfit_1.jpg">
+                    <p class="item_name">Women Full Street Outfit</p>
+                    <p class="item_price">Rp 1.000.000</p>
+                    <p class="item_description">A full outfit fitted for women. Good for working, or just strolling around the city.</p>
+                </div>
+                <div class="item_container">
+                    <img class="item_image" src="Assets/Image/women/outfit_2.jpg" alt="outfit_2.jpg">
+                    <p class="item_name">Women Full Scholar Outfit</p>
+                    <p class="item_price">Rp 800.000</p>
+                    <p class="item_description">A full outfit fitted for women. Good for High-Schoolers, University Students, or young people in general.</p>
+                </div>
+                <div class="item_container">
+                    <img class="item_image" src="Assets/Image/women/shirt_1.jpg" alt="shirt_1.jpg">
+                    <p class="item_name">Women Dark Blue T-Shirt</p>
+                    <p class="item_price">Rp 230.000</p>
+                    <p class="item_description">A darkblue t-shirt, good for skinny or slim women.</p>
+                </div>
+                <div class="item_container">
+                    <img class="item_image" src="Assets/Image/women/shirt_2.jpg" alt="shirt_2.jpg">
+                    <p class="item_name">Women Black T-Shirt</p>
+                    <p class="item_price">Rp 250.000</p>
+                    <p class="item_description">A black t-shirt, good for women who wants to look casual.</p>
+                </div>
+                <div class="item_container">
+                    <img class="item_image" src="Assets/Image/women/skirt_1.jpg" alt="skirt_1.jpg">
+                    <p class="item_name">Women Pink Skirt</p>
+                    <p class="item_price">Rp 340.000</p>
+                    <p class="item_description">A pink skirt fitted for women. Good for office worker type.</p>
+                </div>
+                <div class="item_container">
+                    <img class="item_image" src="Assets/Image/women/skirt_2.jpg" alt="skirt_2.jpg">
+                    <p class="item_name">Women Grey Skirt</p>
+                    <p class="item_price">Rp 390.000</p>
+                    <p class="item_description">A grey skirt fitted for women. Looks good when paired with black outfits.</p>
+                </div>
+                <div class="item_container">
+                    <img class="item_image" src="Assets/Image/women/shoes_1.jpg" alt="shoes_1.jpg">
+                    <p class="item_name">Women Black Shoes</p>
+                    <p class="item_price">Rp 120.000</p>
+                    <p class="item_description">A shoe fit for women. Lightweight and comfortable, and fancy as well.</p>
+                </div>
+                <div class="item_container">
+                    <img class="item_image" src="Assets/Image/women/shoes_2.jpg" alt="shoes_2.jpg">
+                    <p class="item_name">Women Grey Shoes</p>
+                    <p class="item_price">Rp 400.000</p>
+                    <p class="item_description">A shoe fitted for women. Good for those who wants to look fashionable.</p>
+                </div>
+            </div>
+        </div>
     </div>
 
     <!-- footer -->
@@ -41,6 +100,10 @@
         <img src="Assets/Logo/business_logo.png" alt="business_logo.png">
         <p>Copyright 2020 &copy; Antromeda Fashion Group</p>
     </div>
+
+    <!-- Chrome bug firing transition, fixed with script tag with a single whitespace -->
+    <script>
+    </script>
 </body>
 
 </html>

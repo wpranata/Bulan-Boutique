@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="CSS/global.css">
-    <link rel="stylesheet" href="CSS/men.css">
+    <link rel="stylesheet" href="CSS/category.css">
     <link rel="shortcut icon" href="Assets/Logo/business_logo.png">
     <title>Men | Bulan Boutique</title>
 </head>
@@ -25,7 +25,13 @@
         <div class="header_navbar">
             <div class="navbar_row_align">
                 <a class="navbar_option" href="home.html">Home</a>
-                <a class="navbar_option" href="">Categories</a>
+                <div class="categories_container">
+                    <p class="navbar_option" href="">Categories</p>
+                    <div class="categories_extend">
+                        <a class="navbar_option" href="men.html">Men</a>
+                        <a class="navbar_option" href="women.html">Women</a>
+                    </div>
+                </div>
                 <a class="navbar_option" href="about.html">About Us</a>
                 <a class="navbar_option" href="register.html">Register</a>
             </div>
@@ -34,6 +40,59 @@
 
     <!-- content -->
     <div class="content">
+        <p id="content_title">Men Products</p>
+        <div class="gallery_row_align">
+            <div class="gallery_container">
+                <div class="item_container">
+                    <img class="item_image" src="Assets/Image/men/outfit_1.jpg" alt="outfit_1.jpg">
+                    <p class="item_name">Men Full Street Outfit</p>
+                    <p class="item_price">Rp 1.000.000</p>
+                    <p class="item_description">A full outfit fitted for men. Good for working, or just strolling around the city.</p>
+                </div>
+                <div class="item_container">
+                    <img class="item_image" src="Assets/Image/men/outfit_2.jpg" alt="outfit_2.jpg">
+                    <p class="item_name">Men Full Scholar Outfit</p>
+                    <p class="item_price">Rp 800.000</p>
+                    <p class="item_description">A full outfit fitted for men. Good for High-Schoolers, University Students, or young people in general.</p>
+                </div>
+                <div class="item_container">
+                    <img class="item_image" src="Assets/Image/men/shirt_1.jpg" alt="shirt_1.jpg">
+                    <p class="item_name">Men Light Blue Shirt</p>
+                    <p class="item_price">Rp 230.000</p>
+                    <p class="item_description">A long-sleeve lightblue shirt, good for skinny or slim men.</p>
+                </div>
+                <div class="item_container">
+                    <img class="item_image" src="Assets/Image/men/shirt_2.jpg" alt="shirt_2.jpg">
+                    <p class="item_name">Men Black Shirt</p>
+                    <p class="item_price">Rp 250.000</p>
+                    <p class="item_description">A long-sleeve black shirt, good for men who wants to look professional.</p>
+                </div>
+                <div class="item_container">
+                    <img class="item_image" src="Assets/Image/men/pants_1.jpg" alt="pants_1.jpg">
+                    <p class="item_name">Men Grey Work Pants</p>
+                    <p class="item_price">Rp 340.000</p>
+                    <p class="item_description">A grey pants fitted for men. Good for office worker type.</p>
+                </div>
+                <div class="item_container">
+                    <img class="item_image" src="Assets/Image/men/pants_2.jpg" alt="pants_2.jpg">
+                    <p class="item_name">Men White Slim-Fit Pants</p>
+                    <p class="item_price">Rp 390.000</p>
+                    <p class="item_description">A white slim-fit pants fitted for men. Looks good when paired with black outfits.</p>
+                </div>
+                <div class="item_container">
+                    <img class="item_image" src="Assets/Image/men/shoes_1.jpg" alt="shoes_1.jpg">
+                    <p class="item_name">Men White Running Shoes</p>
+                    <p class="item_price">Rp 120.000</p>
+                    <p class="item_description">A running shoes fit for men. Lightweight and comfortable when used on asphalt or dirt.</p>
+                </div>
+                <div class="item_container">
+                    <img class="item_image" src="Assets/Image/men/shoes_2.jpg" alt="shoes_2.jpg">
+                    <p class="item_name">Men Navy Blue Semi-Boots</p>
+                    <p class="item_price">Rp 400.000</p>
+                    <p class="item_description">A semi-boots fitted for men. Good for those who wants to look fashionable.</p>
+                </div>
+            </div>
+        </div>
     </div>
 
     <!-- footer -->
@@ -41,6 +100,10 @@
         <img src="Assets/Logo/business_logo.png" alt="business_logo.png">
         <p>Copyright 2020 &copy; Antromeda Fashion Group</p>
     </div>
+
+    <!-- Chrome bug firing transition, fixed with script tag with a single whitespace -->
+    <script>
+    </script>
 </body>
 
 </html>

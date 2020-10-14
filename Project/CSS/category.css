@@ -1,0 +1,62 @@
+/* category.css contains css for category contents */
+
+.content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#content_title {
+    color: white;
+    font-size: 36px;
+    text-align: center;
+}
+
+.gallery_row_align {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.gallery_container {
+    max-width: 1200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex: 1 1 270px;
+}
+
+.item_container {
+    width: 270px;
+    min-height: 460px;
+    height: fit-content;
+    margin: 15px;
+    border: 1px solid white;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: center;
+    transition: 0.1s;
+}
+
+.item_image {
+    width: 100%;
+}
+
+.item_name,
+.item_price,
+.item_description {
+    color: white;
+    text-align: center;
+    margin: 8px;
+}
+
+.item_container:hover {
+    transform: scale(1.1, 1.1);
+    cursor: pointer;
+}
