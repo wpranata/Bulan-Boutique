@@ -17,7 +17,7 @@ body {
     flex-direction: row;
     justify-content: space-between;
     border-bottom: 1px solid white;
-    padding: 20px 0;
+    padding: 30px 0;
     /* background-color: blue; */
 }
 
@@ -53,6 +53,7 @@ body {
 
 .navbar_option {
     padding: 0;
+    margin: 0;
     margin-right: 20px;
     text-decoration: none;
     font-size: 26px;
@@ -85,4 +86,18 @@ body {
 .footer img {
     width: 100px;
     height: 100px;
+}
+
+.categories_extend {
+    display: none;
+    transition: 0.2s;
+    opacity: 0;
+}
+
+.categories_container:hover .categories_extend {
+    opacity: 1;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
 }
