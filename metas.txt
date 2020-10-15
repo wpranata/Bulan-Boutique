@@ -63,6 +63,11 @@ base : #121212
 15%  : #353535
 16%  : #383838
 
+anim durations:
+The 'hover-button-change-color' thing (blip-blips): 0.2s
+The 'hover-gallery-zoom' thing (bloop-bloops): 0.1s
+The 'image-carousel-moving' thing (zoom-zooms): 0.5s
+The 'men-women-zooming-when-hovered' thing (vuaw-vuaws): 0.3s
 
 References:
 hamburger.svg -> https://freeicons.io/avatar/hamburger-menu-icon-11554
@@ -70,6 +75,12 @@ about us images:
 - https://www.scmp.com/magazines/style/luxury/article/3033832/style-edit-giorgio-armani-stays-out-after-dark-nocturnally
 - https://www.aliexpress.com/item/32808857498.html
 - https://www.pinterest.com/pin/10836855326755198/
+
+Promotion 1: https://www.thetrendspotter.net/best-street-style-from-paris-fashion-week-ss-2020/
+Promotion 2: - https://www.scmp.com/magazines/style/luxury/article/3033832/style-edit-giorgio-armani-stays-out-after-dark-nocturnally
+- https://www.aliexpress.com/item/32808857498.html
+- https://www.pinterest.com/pin/10836855326755198/
+Promotion 3: https://www.modcloth.com/
 
 Men Shirt 1: https://www.dhgate.com/product/spring-light-blue-men-shirt-fashion-mens/509618832.html#redirect_detail=WAP2PC
 Men Shirt 2: https://www.wish.com/product/hot-summer-dress-2017-fashion-mesh-mens-see-through-shirts-men-shirt-silk-sexy-floral-mens-casual-shirt-long-sleeve-3xl-5924e1bba1c10b28318f69fc?hide_login_modal=true&share=web
