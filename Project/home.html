@@ -40,14 +40,110 @@
 
     <!-- content -->
     <div class="content">
-        <div class="slider_container">
-            <p>promotions</p>
-        </div>
-        <div class="slider_container">
-            <p>men</p>
-        </div>
-        <div class="slider_container">
-            <p>women</p>
+        <div class="content_aligner">
+            <p class="home_title" id="promotion_title">Promotions</p>
+            <div class="slider_container" id="promotions">
+                <div class="slider">
+                    <div class="slider_images">
+                        <img src="Assets/Image/Promotions/promotion_3.jpg" alt="test_image_2.jpg">
+                        <img src="Assets/Image/Promotions/promotion_1.jpg" alt="test_image.jpg">
+                        <img src="Assets/Image/Promotions/promotion_2.jpg" alt="about.png">
+                        <img src="Assets/Image/Promotions/promotion_3.jpg" alt="test_image_2.jpg">
+                        <img src="Assets/Image/Promotions/promotion_1.jpg" alt="test_image.jpg">
+                    </div>
+                    <div class="slider_arrows" id="arrow_left">
+                        <p>
+                            < </p>
+                    </div>
+                    <div class="slider_dot">
+                        <div class="dots">
+                            <span class="dot" id="dot_1"></span>
+                            <span class="dot" id="dot_2"></span>
+                            <span class="dot" id="dot_3"></span>
+                        </div>
+                    </div>
+                    <div class="slider_arrows" id="arrow_right">
+                        <p>></p>
+                    </div>
+                </div>
+            </div>
+            <p class="home_title" id="products_title">Products</p>
+            <div class="slider_container" id="men_stuff">
+                <div class="men_slider_container">
+                    <p>test</p>
+                    <div class="slider">
+                        <div class="men_slider_images">
+                            <img src="Assets/Image/men/shoes_1.jpg" alt="shoes_1.jpg">
+                            <img src="Assets/Image/men/outfit_1.jpg" alt="outfit_1.jpg">
+                            <img src="Assets/Image/men/shirt_1.jpg" alt="shirt_1.jpg">
+                            <img src="Assets/Image/men/pants_1.jpg" alt="pants_1.jpg">
+                            <img src="Assets/Image/men/shoes_1.jpg" alt="shoes_1.jpg">
+                            <img src="Assets/Image/men/outfit_1.jpg" alt="outfit_1.jpg">
+                        </div>
+                        <div class="men_slider_arrows" id="men_arrow_left">
+                            <p>
+                                < </p>
+                        </div>
+                        <div class="slider_dot">
+                            <div class="men_dots">
+                                <span class="men_dot" id="men_dot_1"></span>
+                                <span class="men_dot" id="men_dot_2"></span>
+                                <span class="men_dot" id="men_dot_3"></span>
+                                <span class="men_dot" id="men_dot_4"></span>
+                            </div>
+                        </div>
+                        <div class="men_slider_arrows" id="men_arrow_right">
+                            <p>></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="men_static_container">
+                    <a href="men.html">
+                        <img src="Assets/Image/men/outfit_2.jpg" alt="outfit_2.jpg">
+                        <div class="label_container">
+                            <p class="product_label">MAN</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="slider_container" id="women_stuff">
+                <div class="women_static_container">
+                    <a href="women.html">
+                        <img src="Assets/Image/women/outfit_2.jpg" alt="outfit_2.jpg">
+                        <div class="label_container">
+                            <p class="product_label">WOMAN</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="women_slider_container">
+                    <p>test</p>
+                    <div class="slider">
+                        <div class="women_slider_images">
+                            <img src="Assets/Image/women/shoes_1.jpg" alt="shoes_1.jpg">
+                            <img src="Assets/Image/women/outfit_1.jpg" alt="outfit_1.jpg">
+                            <img src="Assets/Image/women/shirt_1.jpg" alt="shirt_1.jpg">
+                            <img src="Assets/Image/women/skirt_1.jpg" alt="skirt_1.jpg">
+                            <img src="Assets/Image/women/shoes_1.jpg" alt="shoes_1.jpg">
+                            <img src="Assets/Image/women/outfit_1.jpg" alt="outfit_1.jpg">
+                        </div>
+                        <div class="women_slider_arrows" id="women_arrow_left">
+                            <p>
+                                < </p>
+                        </div>
+                        <div class="slider_dot">
+                            <div class="women_dots">
+                                <span class="women_dot" id="women_dot_1"></span>
+                                <span class="women_dot" id="women_dot_2"></span>
+                                <span class="women_dot" id="women_dot_3"></span>
+                                <span class="women_dot" id="women_dot_4"></span>
+                            </div>
+                        </div>
+                        <div class="women_slider_arrows" id="women_arrow_right">
+                            <p>></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 
@@ -56,6 +152,15 @@
         <img src="Assets/Logo/business_logo.png" alt="business_logo.png">
         <p>Copyright 2020 &copy; Antromeda Fashion Group</p>
     </div>
+
+    <script src="JS/jquery-3.5.1.min.js"></script>
+    <script src="JS/home_promotions.js"></script>
+    <script src="JS/home_men.js"></script>
+    <script src="JS/home_women.js"></script>
+
+    <!-- Chrome bug firing transition, fixed with script tag with a single whitespace -->
+    <script>
+    </script>
 </body>
 
 </html>

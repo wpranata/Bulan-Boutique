@@ -1,6 +1,244 @@
 /* home.css contains css for home contents and responsive @media styling */
 
+.content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.content_aligner {
+    width: 1200px;
+}
+
+.home_title {
+    color: white;
+    font-size: 36px;
+    text-align: center;
+    margin: 0;
+    margin-top: 16px;
+    font-weight: bold;
+}
+
 .slider_container {
     background-color: white;
     width: 100%;
+    padding-top: 30%;
+    position: relative;
+    margin: 30px 0;
+}
+
+#promotions {
+    margin-bottom: 50px;
+}
+
+#men_stuff,
+#women_stuff {
+    display: flex;
+    flex-direction: row;
+}
+
+.men_slider_container,
+.women_slider_container {
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: white;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+
+.women_slider_container {
+    left: 50%;
+}
+
+.slider {
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+}
+
+.slider_images,
+.men_slider_images,
+.women_slider_images {
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+
+.slider_images img,
+.men_slider_images img,
+.women_slider_images img {
+    flex: 0 0 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: top;
+    transition: 0.5s;
+    transform: translateX(-100%);
+}
+
+.slider_arrows,
+.slider_dot,
+.men_slider_arrows,
+.men_slider_dot,
+.women_slider_arrows,
+.women_slider_dot {
+    margin: 0;
+    height: 100%;
+    top: 0;
+    position: absolute;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.slider_arrows,
+.men_slider_arrows,
+.women_slider_arrows {
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0);
+    transition: 0.2s;
+    z-index: 1;
+}
+
+.slider_arrows:hover,
+.men_slider_arrows:hover,
+.women_slider_arrows:hover {
+    background-color: rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+}
+
+#arrow_left,
+#men_arrow_left,
+#women_arrow_left {
+    left: 0;
+}
+
+#arrow_right,
+#men_arrow_right,
+#women_arrow_right {
+    right: 0;
+}
+
+.slider_dot {
+    width: 100%;
+    justify-content: flex-end;
+    z-index: 0;
+}
+
+.dots,
+.men_dots,
+.women_dots {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+.dot,
+.men_dot,
+.women_dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 10px;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 50%;
+    display: inline-block;
+    border: 1px solid white;
+}
+
+#dot_1,
+#men_dot_1,
+#women_dot_1 {
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+.men_static_container,
+.women_static_container {
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    background-color: blue;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    overflow: hidden;
+}
+
+.women_static_container {
+    left: 0;
+}
+
+.men_static_container img,
+.women_static_container img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    filter: grayscale(100%);
+    transition: 0.3s;
+    object-position: top;
+}
+
+.men_static_container:hover img,
+.women_static_container:hover img {
+    filter: grayscale(0);
+    transform: scale(1.1, 1.1);
+    cursor: pointer;
+}
+
+.label_container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center
+}
+
+.product_label {
+    text-align: center;
+    font-size: 72px;
+    font-weight: bold;
+    color: black;
+    transition: 0.2s;
+}
+
+.men_static_container:hover .product_label,
+.women_static_container:hover .product_label {
+    color: white;
+}
+
+@media only screen and (max-width: 799px) {
+    .men_slider_container,
+    .women_slider_container {
+        display: none;
+    }
+    .men_static_container,
+    .women_static_container {
+        width: 100%;
+        left: 0;
+    }
 }
